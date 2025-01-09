@@ -2,19 +2,17 @@ openapi: 3.0.3
 info:
   title: yCloudx - OpenAPI 1.0
   description: |-
-    This document defines the requirements for implementation of the integration between Cyberview RDM System and yCloudx
+    This document defines list of APIs operations that are available from yCloudx. It is only for read-only access.
     
     Some useful links:
     - [yCloudx](https://ycloudx.com)
     - [Lestari Global](https://lestariglob.com)
   version: 1.0.0
 servers:
-  - url: https://dev-sirim.ycloudx.com/api (Staging)
-  - url: https://myasset.sirim.my/api (Production)
+  - url: localhost:8080
 tags:
-  - name: Post Work Order Request
-  - name: Update Work Order Request
-    # description: Everything about your Pets
+  - name: APIs
+    description: Operations for APIs
     # externalDocs:
     #   description: Find out more
     #   url: http://swagger.io
@@ -22,7 +20,7 @@ paths:
   /insert_data/vendor:
     post:
       tags:
-        - Post Work Order Request
+        - APIs
       summary: Insert work order
       description: Staging - $5$1277ad5d4e2b8515$1AVL2bH5Drh8uuCUA7ODI5cdnEhV8uerJDPrkojRW54 Production - $5$d873a39206b98d9f$q0QYm7lh4Lktj5qE973YWsyGnuzER1qzaTzJqJfJIYB 
       # parameters:
@@ -56,7 +54,7 @@ paths:
   /update_data/vendor:
     post:
       tags:
-        - Update Work Order Request
+        - APIs
       summary: Update work order
       description: Staging - $5$1277ad5d4e2b8515$1AVL2bH5Drh8uuCUA7ODI5cdnEhV8uerJDPrkojRW54 Production - $5$d873a39206b98d9f$q0QYm7lh4Lktj5qE973YWsyGnuzER1qzaTzJqJfJIYB 
       requestBody:
