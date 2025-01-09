@@ -22,7 +22,7 @@ paths:
       tags:
         - APIs
       summary: Insert work order
-      description: Staging - $5$1277ad5d4e2b8515$1AVL2bH5Drh8uuCUA7ODI5cdnEhV8uerJDPrkojRW54 Production - $5$d873a39206b98d9f$q0QYm7lh4Lktj5qE973YWsyGnuzER1qzaTzJqJfJIYB 
+      # description: test
       # parameters:
       # - name: accesskey
       #   in: query
@@ -56,7 +56,7 @@ paths:
       tags:
         - APIs
       summary: Update work order
-      description: Staging - $5$1277ad5d4e2b8515$1AVL2bH5Drh8uuCUA7ODI5cdnEhV8uerJDPrkojRW54 Production - $5$d873a39206b98d9f$q0QYm7lh4Lktj5qE973YWsyGnuzER1qzaTzJqJfJIYB 
+      # description: test
       requestBody:
         description: Update work order
         content:
